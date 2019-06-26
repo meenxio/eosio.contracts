@@ -1,8 +1,3 @@
-/**
- *  @file
- *  @copyright defined in eos/LICENSE.txt
- */
-
 #include <eosio.token/eosio.token.hpp>
 
 namespace eosio {
@@ -161,5 +156,3 @@ void token::close( const name& owner, const symbol& symbol )
 }
 
 } /// namespace eosio
-
-EOSIO_DISPATCH( eosio::token, (create)(issue)(transfer)(open)(close)(retire) )
